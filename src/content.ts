@@ -26,8 +26,8 @@ const animations = {
 } as const
 
 const delays = {
-    submissionAccepted: 3000,
-    submissionRejected: 1000
+    submissionAccepted: 500,
+    submissionRejected: 500
 } as const satisfies Partial<{ [delay in Actions]: number }>
 
 console.log('LeetCode Banner Extension - Content script loaded on:', window.location.href);
